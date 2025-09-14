@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Color Code Generator</title>
+
+    <link rel="stylesheet" href="./index.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <h1>Code Color Hex</h1>
-    <input type="color" id="colorInp">
+
+    <input  type="color" 
+            id="colorInp"
+            class="colorInp">
+
+    <div class="styleSelectDiv">
+        <div class="select">
+            <span>MONOCHROME</span>
+            <i class="fas fa-angle-down"></i>
+        </div>
+        <div class="option-list">
+            <div class="option">Monochrome</div>
+            <div class="option">Monochrome-dark</div>
+            <div class="option">Monochrome-light</div>
+            <div class="option">Analogic</div>
+            <div class="option">Complement</div>
+            <div class="option">Analogic-complement</div>
+            <div class="option">Triad</div>
+        </div>
+    </div>
+
+    <button class="getHexBtn" id="getHexBtn">Get color hex</button>
+
+  
+
+    <script src="./index.js"></script>
 </body>
 </html>

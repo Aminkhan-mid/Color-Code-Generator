@@ -1,3 +1,43 @@
 body{
+    margin: 0;
+    padding: 0;
     background-color: #1F2937;
+    color: wheat;
 }
+
+.colorInp{
+    width: 51px;
+    height: 34px;
+    top: 28px;
+    left: 19px;
+    border: 0.5px;
+}
+
+.styleSelect{
+    width: 312px;
+    height: 42px;
+    top: 24px;
+    left: 87px;
+    border-radius: 6px;
+    border: 1px solid #D1D5DB;
+    padding: 9px 13px;
+    gap: 4px;
+    background-color: #1F293A;
+    color:#D5D4D8;
+
+    &:open{
+    background-color:#1F2937;
+    width: 312px;
+    height: 287px;
+    border-radius: 68px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #ffffff;
+    }
+}
+
