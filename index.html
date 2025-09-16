@@ -22,33 +22,20 @@
         class="colorInp">
         
         <select name="dropDownName" id="dropDownId">
-            <option value="Monochrome">Monochrome</option>
-            <option value="Monochrome-light">Monochrome-dark</option>
-            <option value="Monochrome-dark">Monochrome-light</option>
-            <option value="Analogic">Analogic</option>
-            <option value="Complement">Complement</option>
-            <option value="Analogic-complement">Analogic-complement</option>
-            <option value="Triad">Triad</option>
+            <option value="">Select a Mode</option>
+            <option value="monochrome">Monochrome</option>
+            <option value="monochrome-light">Monochrome-dark</option>
+            <option value="monochrome-dark">Monochrome-light</option>
+            <option value="analogic">Analogic</option>
+            <option value="complement">Complement</option>
+            <option value="analogic-complement">Analogic-complement</option>
+            <option value="triad">Triad</option>
         </select>
         
         <button class="getHexBtn" id="getHexBtn">Get color hex</button>
     </main>
     
-    <div class="colorBox" id="colorBox">
-        <div class="colorOne color"></div>
-        <div class="colorTwo color"></div>
-        <div class="colorThree color"></div>
-        <div class="colorFour color"></div>
-        <div class="colorFive color"></div>
-    </div>
-
-    <div class="colorBoxCodes" id="colorBoxCodes">
-        <p>#0000</p>
-        <p>#0000</p>
-        <p>#0000</p>
-        <p>#0000</p>
-        <p>#0000</p>
-    </div>
+    <span id="renderColorModul"></span>
 
     <script src="./index.js"></script>
 </body>
